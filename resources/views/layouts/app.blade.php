@@ -11,7 +11,7 @@
 </head>
 <body>
 @yield('content')
-@include('inc.navbar')
+
 
 @vite('resources/js/app.js')
 
