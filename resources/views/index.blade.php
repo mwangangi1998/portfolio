@@ -61,16 +61,18 @@ social media links here
                 </a>
             </nav>
         </div>
+        {{-- content section --}}
+        <div class=" flex-1 text-black p-3 text-lg bg-slate-300  ">
 
-        <div class=" flex-1 text-black p-3 text-lg bg-slate-300 ">
-            <div class="bg-cover" style="background-image:image('img/img.jpg')">
+                {{-- mobile design --}}
 
-            </div>
-            <div class="text-center py-24 space-y-6">
-                <h1 class="text-center">
-                     <span class="text text-2xl black-900 font-bold ">Mwangangi Musyoka</span></h1>
-                <div class="text-center developer font-mono inline-block">
-                    <p class="developer-text text-first"><span class="text capitalize">I'm </span> a <span class="developer-text text-sec"></span></p>
+                <div class="text-center py-24 space-y-6">
+                    <h1 class="text-center ">
+                        <span class="text text-2xl black-900 font-bold  ">Mwangangi Musyoka</span>
+                    </h1>
+                    <div class="text-center developer font-mono inline-block  ">
+                        <p class="developer-text text-first "><span class="text capitalize">I'm </span> a <span
+                                class="developer-text text-sec"></span></p>
 
 
                 </div>

@@ -24,9 +24,9 @@ setTimeout(()=>{
 sectext.textContent='Freelancer';
 },8000);
 setTimeout(()=>{
-sectext.textContent='Technical writter';
+sectext.textContent='Blogger';
 },12000);
 }
 
 textxontent();
-setInterval(16000,textxontent);
+setInterval(12000,textxontent);

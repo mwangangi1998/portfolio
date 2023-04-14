@@ -62,7 +62,21 @@ social media links here
 
     <div class=" flex-1 text-black p-3 text-lg bg-slate-300 ">
         {{-- content --}}
-        projects
+   <div class="p-12 justify-center">
+    <h1 class="text text-center text-black font-bold text-lg py-2">My projects </h1>
+    <!-- HTML structure for a single project card -->
+<div class="bg-white rounded-lg shadow-md p-6">
+    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Project Title</h3>
+    <ul class="list-disc pl-6">
+        <li class="text-gray-600 mb-2">List Item 1</li>
+        <li class="text-gray-600 mb-2">List Item 2</li>
+        <li class="text-gray-600 mb-2">List Item 3</li>
+        <li class="text-gray-600 mb-2">List Item 4</li>
+    </ul>
+    <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">Learn More</a>
+</div>
+
+   </div>
 
 
     </div>
