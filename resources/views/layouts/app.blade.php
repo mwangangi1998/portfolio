@@ -10,8 +10,11 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-@yield('content')
 
+@yield('content')
+<div class="container">
+    @include('inc.messages')
+</div>
 
 @vite('resources/js/app.js')
 

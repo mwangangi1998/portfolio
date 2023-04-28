@@ -68,10 +68,28 @@ social media links here
 <div class="bg-white rounded-lg shadow-md p-6">
     <h3 class="text-2xl font-semibold text-gray-800 mb-4">Project Title</h3>
     <ul class="list-disc pl-6">
-        <li class="text-gray-600 mb-2">List Item 1</li>
-        <li class="text-gray-600 mb-2">List Item 2</li>
-        <li class="text-gray-600 mb-2">List Item 3</li>
-        <li class="text-gray-600 mb-2">List Item 4</li>
+        <li class="text-gray-600 mb-2">Real Estates Management systems & property listing.
+            <a href="https://github.com/mwangangi1998/E-states" target="_blank">
+            <span class="text underline text-blue-300">click here!</span></a></li>
+        <li class="text-gray-600 mb-2">Blog posting web Application .
+            <a href="https://github.com/mwangangi1998/Laravel-blog-Posting-web-Application" target="_blank">
+                <span class="text underline text-blue-300">click here!</span></a></li>
+        <li class="text-gray-600 mb-2">Google docs Clone.
+            <a href="https://github.com/mwangangi1998/googledocsClone" target="_blank">
+            <span class="text underline text-blue-300">click here!</span></a>
+        </li>
+        <li class="text-gray-600 mb-2">xymovies movies web application .
+             <a href="https://github.com/mwangangi1998/xyMovieApp" target="_blank">
+            <span class="text underline text-blue-300">click here!</span>
+        </a></li>
+        <li class="text-gray-600 mb-2">Mulika organization Website .
+            <a href="https://mulika.org" target="_blank">
+            <span class="text underline text-blue-300">click here!</span></a>
+        </li>
+        <li class="text-gray-600 mb-2">portfolio website .
+            <a href="https://github.com/mwangangi1998/portfolio" target="_blank">
+            <span class="text underline text-blue-300">click here!</span></a>
+        </li>
     </ul>
     <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">Learn More</a>
 </div>

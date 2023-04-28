@@ -64,8 +64,9 @@ social media links here
             <h1 class="text text uppercase text-center">Contact Me</h1>
 
         <div class="max-w-md mx-auto">
-            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-              <div class="mb-4">
+            <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" action="{{ url('contactme') }}" method="post">
+              @csrf
+                <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
                   Name
                 </label>
@@ -73,6 +74,7 @@ social media links here
                   class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="name"
                   type="text"
+                  name="name"
                   placeholder="Your Name"
                 />
               </div>
@@ -84,6 +86,7 @@ social media links here
                   class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="email"
                   type="email"
+                  name="email"
                   placeholder="Your Email"
                 />
               </div>
@@ -94,14 +97,15 @@ social media links here
                 <textarea
                   class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="message"
+                  name="message"
                   placeholder="Your Message"
                   rows="5"
                 ></textarea>
               </div>
               <div class="flex items-center justify-center">
                 <button
-                  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                  type="button"
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+
                 >
                  <span >Contact me</span>
                 </button>

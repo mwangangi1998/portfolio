@@ -60,7 +60,11 @@ social media links here
     </div>
 
     <div class=" flex-1 text-black p-3 text-lg bg-slate-300 ">
- About page
+<div class="bg-white p-8">
+    <p class="text text font-serif text-black text-lg">
+        i am a full-stack web developer ,i specialise in vue JS, Laravel ,PHP .
+    </p>
+</div>
 
 
     </div>

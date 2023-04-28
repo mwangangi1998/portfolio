@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\contactme;
+use GrahamCampbell\ResultType\Success;
 use Illuminate\Http\Request;
+use Symfony\Contracts\Service\Attribute\Required;
 
 class pagesController extends Controller
 {
@@ -31,5 +34,25 @@ class pagesController extends Controller
     {
         # code...
         return view('frontend.projects');
+    }
+    public function contactme(Request $request)
+    {
+$this->validate(
+    $request,[
+        'name'=>'required',
+        'email'=>'required',
+        'message'=>'required',
+
+    ]
+    );
+
+    $contactMsg= new contactme();
+    $contactMsg->name=$request->name;
+    $contactMsg->email=$request->email;
+    $contactMsg->message=$request->message;
+    $contactMsg->save();
+    return redirect()->back()->with('Success' ,'message sent!');
+
+
     }
 }
