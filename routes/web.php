@@ -24,3 +24,4 @@ Route::get('/project',[pagesController::class,'projects']);
 Route::get('/contact',[pagesController::class,'contact']);
 // post for contact me
 Route::post('/contactme',[pagesController::class,'contactme']);
+Route::get('/myprojects',[projectsController::class,'myprojects']);

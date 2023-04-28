@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\contactme;
+use App\Models\project;
 use GrahamCampbell\ResultType\Success;
 use Illuminate\Http\Request;
 use Symfony\Contracts\Service\Attribute\Required;
@@ -32,8 +33,9 @@ class pagesController extends Controller
     }
     public function projects()
     {
+        $projects=project::paginate(3);
         # code...
-        return view('frontend.projects');
+        return view('frontend.projects',['projects'=>$projects]);
     }
     public function contactme(Request $request)
     {

@@ -80,4 +80,5 @@ social media links here
 
             </div>
         </div>
+    </div>
     @endsection
