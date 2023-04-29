@@ -64,27 +64,25 @@ social media links here
 
         <div class=" flex-1 text-black p-3 text-lg bg-slate-300 ">
             {{-- content --}}
-            <div class="p-12 justify-center p-6 w-auto">
+            <div class=" justify-center p-6 w-auto">
                 <h1 class="text text-center text-black font-bold text-lg py-2">My projects </h1>
                 <!-- HTML structure for a single project card -->
-                <div class="bg-white rounded-lg shadow-md p-6 w-auto">
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Project Title</h3>
+                <div class="bg-white rounded-lg shadow-md p-6 w-auto ">
                     <ul class="list-disc pl-6">
                         @foreach ($projects as $project)
                             <li class="text-gray-600 mb-2 text-lg ">
                                 <h3 class="text font-bold capitalize">{{ $project->title }}.</h3>
-                                <p class="overflow-hidden italic  w-auto ">{{ $project->description }}</p>
+                                <p class="overflow-hidden italic  w-94 ">{{ $project->description }}</p>
 
-                                <a href="https://mulika.org"
-                                    target="_blank">
+                                <a href="https://mulika.org" target="_blank">
                                     <span class="text underline text-blue-300">click here !</span></a>
                             </li>
                         @endforeach
 
                     </ul>
-                    <a href="#" class="text-blue-500 hover:text-blue-700 font-medium">Learn More</a>
+
                 </div>
-                {{ $projects->links() }}
+                {{ $projects->links('pagination::tailwind') }}
             </div>
 
 

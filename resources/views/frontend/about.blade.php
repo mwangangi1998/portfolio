@@ -60,9 +60,32 @@ social media links here
     </div>
 
     <div class=" flex-1 text-black p-3 text-lg bg-slate-300 ">
+        <h3 class="text text-black-700 text-lg text-center font-bold">About Me</h3>
 <div class="bg-white p-8">
-    <p class="text text font-serif text-black text-lg">
-        i am a full-stack web developer ,i specialise in vue JS, Laravel ,PHP .
+
+    <p class="text text font-serif text-black text-lg w-96">
+        <p>I am a skilled software engineer with expertise in Laravel, PHP, and Vue.js.
+            My  passion for web development has driven me to specialize in these technologies,
+             and I have honed my skills to a level that makes me an invaluable asset to any project.</p><br>
+
+<p>My experience as a blogger and freelancer has also contributed to my development as a software engineer.
+     My ability to communicate complex technical concepts in simple,
+      easy-to-understand language has made me an effective collaborator and team member.
+      I am always looking for ways to improve my communication skills, and
+       I am dedicated to staying up-to-date with the latest web development trends and practices.</p><br>
+
+<p>In addition to my technical skills, I also have a strong background in Linux and Unix administration.
+     My experience in  managing complex technical environments and troubleshooting issues quickly and effectively.
+      My knowledge in this area adds a valuable dimension to my skills as a software engineer,
+      making me a well-rounded IT professional.</p><br>
+
+<p>As a freelancer, I have developed the ability to work independently and manage time effectively.
+    I am comfortable taking on new projects and working with clients to deliver high-quality
+    web development solutions that meet their specific needs.
+</p>
+
+
+
     </p>
 </div>
 

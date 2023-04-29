@@ -33,7 +33,7 @@ class pagesController extends Controller
     }
     public function projects()
     {
-        $projects=project::paginate(3);
+        $projects=project::paginate(2);
         # code...
         return view('frontend.projects',['projects'=>$projects]);
     }

@@ -61,7 +61,12 @@ social media links here
 
     <div class=" flex-1 text-black p-3 text-lg bg-slate-300 ">
         {{-- content --}}
-resume
+<div class="bg-white p-4 rounded ">
+    <div class="">
+
+    </div>
+
+</div>
 
     </div>
 </div>
